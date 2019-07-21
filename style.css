@@ -142,6 +142,10 @@ footer {
     background-repeat: no-repeat, round;
   }
 
+  body, .container {
+    min-height: 100vh;
+  }
+
   .container {
     max-width: 1440px;
     padding: 2em 3.5em 0 3.5em;
@@ -196,12 +200,12 @@ footer {
   }
 
   footer {
-    position: initial;
+    padding-bottom: 130px;
   }
 
   .attribution {
     left: 0;
     right: 0;
-
+    bottom: 0;
   }
 }
